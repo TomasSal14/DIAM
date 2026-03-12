@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* --- ESTILOS GERAIS --- */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.content-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* HEADER */
+.main-header {
+  display: flex;
+  justify-content: center;
+  height: 250px;
+  position: relative;
+  background-color: #7c7c7c;
+  background-image: url("/chuttersnap-Q_KdjKxntH8-unsplash.jpg");
+  background-size: cover;
+  background-position: bottom;
+  color: white;
+}
+
+.logo-link {
+  position: absolute;
+  left: 15px;
+  cursor: pointer;
+}
+
+.logo-link img {
+  width: 100px;
+  height: 100px;
+  cursor: pointer;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+/* NAVBAR */
+.main-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px 0;
+  background-color: #f4f4f4;
+}
+
+.main-title {
+  color: #31263c;
+}
+
+.link {
+  font-size: 20px;
+  font-weight: bold;
+  color: #31263c;
+  text-decoration: none;
+  padding: 5px 10px;
+}
+
+.link:hover {
+  text-decoration: underline;
+  background: #d3d3d3;
+  border-radius: 5px;
+}
+
+/* SLIDESHOW */
+.slideshow-section {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.slideshow-wrapper {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.slideshow-wrapper img {
+  width: 100%;
+  height: 450px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.slide-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background: rgba(0,0,0,0.5);
+  color: white;
+  border: none;
+  padding: 15px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.slide-btn-left  { left: 10px; }
+.slide-btn-right { right: 10px; }
+
+/* COUNTDOWN */
+.countdown-container {
+  background: #f4f4f4;
+  padding: 20px;
+  text-align: center;
+  margin: 20px 0;
+  border-radius: 8px;
+  font-family: sans-serif;
+}
+
+.countdown-container h3 {
+  margin-bottom: 10px;
+}
+
+.counter-text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+/* INFO SECTION */
+.info-section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.info-block {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.info-list {
+  display: flex;
+  gap: 5px;
+  font-size: 17.5px;
+  align-items: center;
+}
+
+/* TIMELINE TABLE */
+.table-section {
+  width: 100%;
+}
+
+table {
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* FOOTER */
+.main-footer {
+  padding: 2px;
+  background-color: #333333bf;
+  color: white;
+  text-align: center;
+}
